@@ -1,0 +1,137 @@
+/*
+A custom Bootstrap 3.1 theme from http://bootply.com\
+
+This CSS code should follow the 'bootstrap.css'
+in your HTML file.
+
+license: MIT
+author: bootply.com
+*/
+
+html,body{
+  	height:100%;
+}
+
+body{
+  	padding-top:50px; /*padding for navbar*/
+}
+
+a{
+  color: #303030
+}
+a:hover{
+
+}
+
+
+.shop:hover{
+  background-color: #F1F1F1;
+}
+
+.navbar-custom .icon-bar {
+	background-color:#fff;
+}
+
+.navbar-custom {
+	background-color: #c0392b;
+    color:#fff;
+}
+
+.navbar-custom li>a:hover,.navbar-custom li>a:focus {
+	background-color:#c0392b;
+}
+.container{
+  padding-left: 100px;
+}
+.navbar-custom a{
+    color:#fefefe;
+}
+
+.navbar-custom .form-control:focus {
+	border-color: #49bfff;
+	outline: 0;
+	-webkit-box-shadow: inset 0 0 0;
+	box-shadow: inset 0 0 0;
+}
+
+
+#filter {
+  padding-top:12px;
+}
+#choice{
+  padding-top: 0px;
+}
+#hot{
+  height: 900px;
+  padding-top:30px;
+  margin-left: 25px;
+  margin-right:15px;
+  overflow-y:scroll;
+}
+
+
+ #main>.row {
+	height:100%;
+  padding-top: 30px;
+  padding-left:5px;
+}
+
+
+#main>.row {
+    overflow-y:scroll;
+}
+
+#left {
+	height:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*.shop_img{
+  float:left;
+}*/
+.shop_info{
+  float:left;
+}
+.shop{
+  float:left;
+  margin: 0px;
+  padding-top: 10px;
+  border-bottom: 1px solid #D3D3D3;
+
+}
+.shop .shop_info{
+  font: 10;
+}
+.shop.li{
+  
+}
+.shop_img{
+  padding: 2px;
+}
+.under_img{
+
+}
+
+
+/*.shop img{
+  width:120px;
+  height:120px;
+}*/
+
+
+#map-canvas {
+	width:33.3333%;
+    height:calc(100% - 0);
+    position:absolute;
+    right:16px;
+    top:50px;
+    bottom:0;
+    overflow:hidden;
+}
+
+#foot{
+  height: 100px;
+  background-color: #000;
+  color:#fff;
+  clear: both;
+}

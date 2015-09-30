@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" charset="utf-8">
+<style type="text/css">
+	body{
+		width: 300px;
+	}
+	#newDirDiv{
+		display: none;
+	}
+</style>
+	</head>
+	<body>
+<div id="popup">
+	  <div class='list-group' id='add_email'>
+			<a href='#'  class='list-group-item  list-group-item-info disabled'>
+      Add Your Email to Save Your Notes
+    	</a>
+    <div class='input-group'>
+    <input autofocus type='text' id='email' class='form-control' placeholder='example@gmail.com' aria-describedby='sizing-addon3'></input>
+    <span class='input-group-btn'>
+        <button class='btn btn-default' type='button' id='addEmail'>OK</button>
+      </span>
+  	</div>
+  </div>
+  <div class='list-group' id='directory'>
+    <a href='#' class='list-group-item  list-group-item-info disabled'>
+      Choose Directory to Save Your Note
+    </a>
+    <a href='#' class='list-group-item glyphicon glyphicon-book'> Programming Language</a>
+    <a href='#' class='list-group-item glyphicon glyphicon-book'> Cource of Algrithm</a>
+    <a href='#' class='list-group-item glyphicon glyphicon-book'> System Design</a>
+    <a href='#' class='list-group-item glyphicon glyphicon-book'> New Technology</a>
+
+  </div>
+	<div class='list-group'>
+		<a href='#' class='list-group-item btn list-group-item-success' id='showSaved'> View Saved Notebook </a>
+
+	<div id='addBtnDiv'>
+		<a href='#' class='list-group-item btn ' id='addBtn'> New Notebook</a>
+	</div>
+</div>
+	<div id='worning'>
+	</div>
+	<div class='list-group' id='newDirDiv'>
+		<div class='input-group input-group-sm'>
+	  <input type='text' id='newDir' class='form-control' ></input>
+	  <span class='input-group-btn'><button class='btn btn-default' id='newDirBtn' type='button'>Create</button></span>
+	  </div>
+	</div>
+</div>
+<!-- <button type='button' id='study'>Study</button>
+<button type='button' id='working'>working</button> -->
+<script src='js/jquery.min.js'></script>
+<script src='js/bootstrap.min.js'></script>
+<script src='content.js'></script>
+<script src='popup.js'></script>
+</body>
+</html>
